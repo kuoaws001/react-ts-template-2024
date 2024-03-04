@@ -1,8 +1,10 @@
 import React from 'react'
-
+import '@/styles/index.css'
 const app = () => {
   return (
-    <div>app</div>
+    <div>
+      <div className="header"></div>
+    </div>
   )
 }
 
